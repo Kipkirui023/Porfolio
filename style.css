@@ -3,10 +3,12 @@
 *{
     margin: 0;
     padding: 0;
+    color: black;
 }
 
 body{
     font-family: sans-serif;
+    background-color: white;
 }
 
 html{
@@ -339,3 +341,67 @@ article .icon{
     cursor: default;
 }
 
+/* PROJECT SECTION */
+#projects{
+    position: relative;
+}
+
+.color-container{
+    background-color: antiquewhite;
+    background: white;
+}
+
+.project-img{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-name{
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn{
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    border: rgb(53, 53,53) 0.2rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: large;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.article-container img{
+    border-radius: 70px ;
+}
